@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e43959-0cec-4239-a7f8-e09d1f925499" name="Changes" comment="Supplier2 test">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/gatlingRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/gatlingRun.xml" afterDir="false" />
+    <list default="true" id="98e43959-0cec-4239-a7f8-e09d1f925499" name="Changes" comment="Remove demo simulation and clean-up data files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatling/kotlin/computerdatabase/BasicSimulation.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gatling/kotlin/slhc/Supplier2Simulation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/gatling/kotlin/slhc/Supplier2Simulation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatling/kotlin/slhc/getSuppliersOne" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatling/resources/data/getSuppliersOne.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatling/resources/gatling.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-files/simulations/slhc/BasicSimulation.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +68,7 @@
       <workItem from="1649856920082" duration="318000" />
       <workItem from="1649857385127" duration="1378000" />
       <workItem from="1649858796503" duration="502000" />
-      <workItem from="1649940606071" duration="2775000" />
+      <workItem from="1649940606071" duration="4757000" />
     </task>
     <task id="LOCAL-00001" summary="Supplier2 test">
       <created>1649858415476</created>
@@ -87,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649858415476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove demo simulation and clean-up data files">
+      <created>1649943521450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649943521450</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Supplier2 test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Supplier2 test" />
+    <MESSAGE value="Remove demo simulation and clean-up data files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove demo simulation and clean-up data files" />
   </component>
 </project>
