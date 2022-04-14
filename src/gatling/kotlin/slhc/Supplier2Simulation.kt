@@ -8,7 +8,7 @@ import io.gatling.javaapi.http.HttpDsl.*
 class Supplier2Simulation : Simulation() {
 
   private val httpProtocol = http
-        .baseUrl("http://10.10.100.137:21666")
+        .baseUrl("http://10.10.100.137:26781")
         .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
         .acceptEncodingHeader("gzip, deflate")
         .acceptLanguageHeader("en-US,en;q=0.5")

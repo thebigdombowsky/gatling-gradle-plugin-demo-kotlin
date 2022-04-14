@@ -1,15 +1,19 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="gatlingRun" type="GradleRunConfiguration" factoryName="Gradle">
+    <output_file path="C:\Development\gatling-charts-highcharts-bundle-3.7.6\user-files" is_save="true" />
     <ExternalSystemSettings>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
       <option name="externalSystemIdString" value="GRADLE" />
-      <option name="scriptParameters" value="gatlingRun" />
+      <option name="scriptParameters" value="" />
       <option name="taskDescriptions">
         <list />
       </option>
       <option name="taskNames">
-        <list />
+        <list>
+          <option value="clean" />
+          <option value="gatlingRun" />
+        </list>
       </option>
       <option name="vmOptions" />
     </ExternalSystemSettings>
