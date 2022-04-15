@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e43959-0cec-4239-a7f8-e09d1f925499" name="Changes" comment="Add global variable for server and supplier2 port">
-      <change afterPath="$PROJECT_DIR$/src/gatling/kotlin/slhc/SupplierSimulation.kt" afterDir="false" />
+    <list default="true" id="98e43959-0cec-4239-a7f8-e09d1f925499" name="Changes" comment="Clean-up">
+      <change afterPath="$PROJECT_DIR$/src/gatling/kotlin/slhc/SupplierItemSimulation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatling/kotlin/slhc/Supplier2Simulation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatling/resources/getSuppliersOne.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/gatling/resources/getSuppliersOne.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/gatling/resources" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/d4dombs/IdeaProjects/gatling-gradle-plugin-demo-kotlin/src/gatling/kotlin/slhc",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\d4dombs\IdeaProjects\gatling-gradle-plugin-demo-kotlin\src\gatling\resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +87,10 @@
       <workItem from="1649857385127" duration="1378000" />
       <workItem from="1649858796503" duration="502000" />
       <workItem from="1649940606071" duration="5396000" />
-      <workItem from="1650032173352" duration="596000" />
+      <workItem from="1650032173352" duration="1308000" />
+      <workItem from="1650033842473" duration="753000" />
+      <workItem from="1650034826487" duration="26000" />
+      <workItem from="1650034866314" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="Supplier2 test">
       <created>1649858415476</created>
@@ -108,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649945865211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Clean-up">
+      <created>1650033047199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650033047199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +148,7 @@
     <MESSAGE value="Supplier2 test" />
     <MESSAGE value="Remove demo simulation and clean-up data files" />
     <MESSAGE value="Add global variable for server and supplier2 port" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add global variable for server and supplier2 port" />
+    <MESSAGE value="Clean-up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean-up" />
   </component>
 </project>
