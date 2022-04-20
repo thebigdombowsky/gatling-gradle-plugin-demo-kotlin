@@ -57,39 +57,6 @@ class ConcurrentSupplierSimulation : Simulation() {
                 constantConcurrentUsers(50).during(3600)
             ).protocols(httpProtocol)
 
-            /*scnSuppliers.injectOpen(
-                CoreDsl.nothingFor(4), // 1
-                CoreDsl.atOnceUsers(10), // 2
-                CoreDsl.rampUsers(10).during(5), // 3
-                CoreDsl.constantUsersPerSec(1.0).during(15), // 4
-                CoreDsl.constantUsersPerSec(1.0).during(15).randomized(), // 5
-                CoreDsl.rampUsersPerSec(1.0).to(20.0).during(10), // 6
-                CoreDsl.rampUsersPerSec(1.0).to(20.0).during(10).randomized(), // 7
-                CoreDsl.stressPeakUsers(50).during(300) // 8
-            ).protocols(httpProtocol),
-
-            scnSupplierItems.injectOpen(
-                CoreDsl.nothingFor(4), // 1
-                CoreDsl.atOnceUsers(10), // 2
-                CoreDsl.rampUsers(10).during(5), // 3
-                CoreDsl.constantUsersPerSec(1.0).during(15), // 4
-                CoreDsl.constantUsersPerSec(1.0).during(15).randomized(), // 5
-                CoreDsl.rampUsersPerSec(1.0).to(20.0).during(10), // 6
-                CoreDsl.rampUsersPerSec(1.0).to(20.0).during(10).randomized(), // 7
-                CoreDsl.stressPeakUsers(50).during(300) // 8
-            ).protocols(httpProtocol),
-
-
-            scnSuppliersAll.injectOpen(
-                CoreDsl.nothingFor(4), // 1
-                CoreDsl.atOnceUsers(10), // 2
-                CoreDsl.rampUsers(10).during(5), // 3
-                CoreDsl.constantUsersPerSec(1.0).during(15), // 4
-                CoreDsl.constantUsersPerSec(1.0).during(15).randomized(), // 5
-                CoreDsl.rampUsersPerSec(1.0).to(20.0).during(10), // 6
-                CoreDsl.rampUsersPerSec(1.0).to(20.0).during(10).randomized(), // 7
-                CoreDsl.stressPeakUsers(50).during(300) // 8
-            ).protocols(httpProtocol)*/
         )
 
     }
