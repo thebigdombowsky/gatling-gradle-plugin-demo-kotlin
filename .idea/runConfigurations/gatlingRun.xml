@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="gatlingRun" type="GradleRunConfiguration" factoryName="Gradle">
-    <output_file path="C:\Development\gatling-charts-highcharts-bundle-3.7.6\user-files" is_save="true" />
+    <output_file path="C:\Development\logs_gatling\console.txt" is_save="true" />
     <ExternalSystemSettings>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
