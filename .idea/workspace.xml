@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e43959-0cec-4239-a7f8-e09d1f925499" name="Changes" comment="Clean-up">
-      <change afterPath="$PROJECT_DIR$/src/gatling/kotlin/slhc/SupplierItemSimulation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gatling/kotlin/slhc/ConcurrentSupplierSimulation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/gatling/kotlin/slhc/ConcurrentSupplierSimulation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -34,45 +37,51 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/gatling/kotlin/slhc/ConcurrentSupplierSimulation.kt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="27UBWGcaYK01uLmKgjrj0HmXyV8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/d4dombs/IdeaProjects/gatling-gradle-plugin-demo-kotlin/src/gatling/kotlin/slhc",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tms.code.references.jvm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\d4dombs\IdeaProjects\gatling-gradle-plugin-demo-kotlin\src\gatling\resources" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\d4dombs\IdeaProjects\src" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="slhc" />
+      <recent name="pm" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,6 +100,20 @@
       <workItem from="1650033842473" duration="753000" />
       <workItem from="1650034826487" duration="26000" />
       <workItem from="1650034866314" duration="894000" />
+      <workItem from="1650054360480" duration="14750000" />
+      <workItem from="1650383344010" duration="1997000" />
+      <workItem from="1650390537742" duration="20479000" />
+      <workItem from="1650579345274" duration="4497000" />
+      <workItem from="1650998923936" duration="33000" />
+      <workItem from="1650999804254" duration="387000" />
+      <workItem from="1651000243784" duration="256000" />
+      <workItem from="1651000528208" duration="2674000" />
+      <workItem from="1651159977913" duration="205000" />
+      <workItem from="1651160210312" duration="22000" />
+      <workItem from="1651160259466" duration="698000" />
+      <workItem from="1651163637300" duration="1162000" />
+      <workItem from="1651257054188" duration="1216000" />
+      <workItem from="1651264711803" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="Supplier2 test">
       <created>1649858415476</created>
@@ -127,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650033047199</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Clean-up">
+      <created>1650482380057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650482380057</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Clean-up">
+      <created>1650482507182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650482507182</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,10 +182,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Supplier2 test" />
     <MESSAGE value="Remove demo simulation and clean-up data files" />
     <MESSAGE value="Add global variable for server and supplier2 port" />
     <MESSAGE value="Clean-up" />
     <option name="LAST_COMMIT_MESSAGE" value="Clean-up" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -14,7 +14,7 @@ class ConcurrentSupplierSimulation : Simulation() {
     private val feederSupplierItems = CoreDsl.csv("getSupplierItemsOne.csv").random().circular()
 
     private val httpProtocol = http
-        .baseUrl( "http://10.10.100.137:27812" )
+        .baseUrl( "http://10.10.100.137:24927" )
         .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
         .acceptEncodingHeader("gzip, deflate")
         .acceptLanguageHeader("en-US,en;q=0.5")
@@ -37,7 +37,7 @@ class ConcurrentSupplierSimulation : Simulation() {
         .feed(feederSuppliers)
         .exec(http("getSuppliersAll")
             .get("/api/suppliers"))
-        .pause(1)
+        .pause(300)
 
     init {
         setUp(
@@ -48,8 +48,8 @@ class ConcurrentSupplierSimulation : Simulation() {
             ).protocols(httpProtocol),
 
             scnSuppliersAll.injectClosed(
-                rampConcurrentUsers(1).to(50).during(60),
-                constantConcurrentUsers(50).during(3600)
+                rampConcurrentUsers(0).to(1).during(60),
+                constantConcurrentUsers(1).during(3600)
             ).protocols(httpProtocol),
 
             scnSupplierItems.injectClosed(
